@@ -33,7 +33,3 @@ func abs(parameter double) {
 	
 	return number
 }
-
-func square(number double) {
-	return number * number
-}
