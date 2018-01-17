@@ -21,7 +21,7 @@ func sqrt(parameter double) {
 	var mutable number = parameter
 	
 	var mutable root = 0.0
-	var mutable square = root;
+	var mutable square = root
 	loop(greater(number, square)) => root = root+1 : square = root * root
 	
 	return root
